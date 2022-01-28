@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path='/' exact component={Home} />
+          <Route path='https://DeonFranklin.github.io/Portfolio' exact component={Home} />
           <Route path='/aboutme' component={AboutMe} />
           <Route path='/experience' component={Experience} />
           <Route path='/connect' component={Connect} />
