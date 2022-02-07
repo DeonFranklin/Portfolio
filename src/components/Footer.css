@@ -20,7 +20,7 @@
 }
 
 .footer-subscription > p {
-  font-family: 'Roboto MS', sans-serif;
+  font-family: "Roboto MS", sans-serif;
 }
 
 .footer-subscription-heading {
@@ -81,7 +81,6 @@
   text-decoration: none;
   margin-bottom: 0.5rem;
   text-align: center;
-
 }
 
 .footer-link-items a:hover {

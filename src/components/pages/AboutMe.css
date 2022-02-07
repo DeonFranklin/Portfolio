@@ -1,0 +1,7 @@
+* {
+  color: rgb(0, 70, 128);
+  /* text-align: center;   */
+  flex-direction: wrap;
+  justify-content: center;
+  text-align: wrap;
+}

@@ -1,10 +1,10 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
-import Home from './components/pages/Home';
+import Home from './components/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import AboutMe from './components/pages/AboutMe';
-import Experience from './components/pages/Experience';
+import Projects from './components/pages/Projects';
 import Connect from './components/pages/Connect';
 
 function App() {
@@ -13,9 +13,9 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path='/Portfolio' exact component={Home} />
+          <Route path='/home' exact component={Home} />
           <Route path='/aboutme' component={AboutMe} />
-          <Route path='/experience' component={Experience} />
+          <Route path='/Projects' component={Projects} />
           <Route path='/connect' component={Connect} />
         </Switch>
       </Router>
