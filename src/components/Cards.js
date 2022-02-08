@@ -10,13 +10,14 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              img src="/images/Profpic.png"
-              text= "Learn More About Me"
-              label= "About Me"
-              path= "/AboutMe"
+              img
+              src="https://res.cloudinary.com/dankl8in/image/upload/v1644352086/Profpic_s5nlfm.png"
+              text="Learn More About Me"
+              label="About Me"
+              path="/AboutMe"
             />
             <CardItem
-              src='images/github.jpg'
+              src="https://res.cloudinary.com/dankl8in/image/upload/v1644352086/github_tdtotg.jpg"
               text="Check out some of my work"
               label="Projects"
               Link
@@ -25,7 +26,8 @@ function Cards() {
           </ul>
           <ul className="cards__items">
             <CardItem
-              img src='images/connectionmap.jpg' 
+              img
+              src="https://res.cloudinary.com/dankl8in/image/upload/v1644352085/connectionmap_q0ft3i.webp"
               text="Let's Connect and Exchange Ideas"
               label="Socials"
               path="/Socials"
