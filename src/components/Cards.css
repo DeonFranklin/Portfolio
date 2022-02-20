@@ -1,6 +1,6 @@
 .cards {
   padding: 4rem;
-  background: #4d4d4d;
+  /* background: #4d4d4d; */
 }
 
 h1 {
@@ -36,7 +36,7 @@ h1 {
   display: flex;
   flex-flow: column;
   width: 100%;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  box-shadow: 0 6px 20px;
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   border-radius: 10px;
@@ -65,7 +65,7 @@ h1 {
   max-width: calc((100%) - 60px);
   font-size: 12px;
   font-weight: 700;
-  color: #6f90f2;
+  color: rgb(30, 113, 181);
   background-color: transparent;
   box-sizing: border-box;
 }
@@ -86,7 +86,7 @@ h1 {
 }
 
 .cards__item__img:hover {
-  transform: scale(1.1);
+  transform: scale(0.8);
 }
 
 .cards__item__info {
@@ -94,7 +94,7 @@ h1 {
 }
 
 .cards__item__text {
-  color: #6f90f2;
+  color: rgb(30, 113, 181);
   font-size: 18px;
   text-align: center;
   line-height: 24px;

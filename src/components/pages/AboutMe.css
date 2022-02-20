@@ -1,7 +1,8 @@
 * {
-  color: rgb(0, 70, 128);
-  /* text-align: center;   */
+  color: rgb(30, 113, 181);
+  background: black;
   flex-direction: wrap;
   justify-content: center;
   text-align: wrap;
+  margin: 2px;
 }

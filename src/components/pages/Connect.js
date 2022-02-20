@@ -1,12 +1,15 @@
 import React from "react";
-import "../../App.css";
+import "../../components/pages/Connect.css";
 
-export default function Connect() {
+export default function AboutMe() {
   return (
     <>
       <h1 className="connect">Let's Connect!</h1>
-      <p>Social Links</p>
+      <div class="social-container">
+        <h3>Social Follow</h3>
       
+      </div>
     </>
   );
 }
+

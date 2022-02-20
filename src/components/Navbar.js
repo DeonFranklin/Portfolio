@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+// import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -36,7 +37,7 @@ function Navbar() {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/home" className="nav-links" onClick={closeMenu}>
+              <Link to="/Portfolio" className="nav-links" onClick={closeMenu}>
                 Home
               </Link>
             </li>

@@ -1,8 +1,8 @@
 .navbar {
-  background: rgb(56, 56, 56);
+  background: black;
   height: 80px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   font-size: 1.0rem;
   position: sticky;
@@ -19,7 +19,7 @@
 }
 
 .navbar-logo {
-  color: rgb(0, 70, 128);
+  color: black;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -50,7 +50,7 @@
 }
 
 .nav-links {
-  color:rgb(0, 70, 128);
+  color:rgb(30, 113, 181);
   display: flex;
   align-items: center;
   text-decoration: underline;
@@ -64,7 +64,7 @@
 }
 
 .fa-bars {
-  color: rgb(0, 70, 128);
+  color: rgb(30, 113, 181);
 }
 
 .nav-links-mobile {
@@ -131,7 +131,7 @@
   }
 
   .fa-times {
-    color: rgb(0, 70, 128);
+    color: rgb(30, 113, 181);
     font-size: 2rem;
   }
 
@@ -143,7 +143,7 @@
     width: 80%;
     text-decoration: none;
     font-size: 1.5rem;
-    background-color: transparent;
+    /* background-color: transparent; */
     color: #fff;
     padding: 14px 20px;
     border: 1px solid rgb(0, 0, 0);
@@ -151,7 +151,7 @@
   }
 
   .nav-links-mobile:hover {
-    background: rgb(255, 255, 255);
+    /* background: rgb(255, 255, 255); */
     color: #242424;
     transition: 250ms;
   }
