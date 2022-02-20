@@ -24,14 +24,6 @@ function HeroSection() {
         >
           see my work
         </Button>
-        <Button
-          className="btns"
-          buttonStyle="btn--primary"
-          buttonSize="btn--large"
-          path="/connect"
-        >
-          contact me
-        </Button>
       </div>
     </div>
   );

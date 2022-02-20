@@ -29,6 +29,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
+        {/* <video src="https://res.cloudinary.com/dankl8in/video/upload/v1644352250/video-1_xdvmaw.webm" autoPlay loop muted /> */}
           <Link to="/home" className="navbar-logo" onClick={closeMenu}>
             Deon D. Franklin
           </Link>
