@@ -17,14 +17,12 @@ export default function AboutMe() {
         <CardItem
           img
           src="https://res.cloudinary.com/dankl8in/image/upload/v1645473980/du5gih3rlkat2wu5g5ch.png"
-          text="Github"
           Link
               to={{ pathname: "https://github.com/DeonFranklin" }}
         />
         <CardItem
           img
           src="https://res.cloudinary.com/dankl8in/image/upload/v1645471118/linkedin_ox4tok.png"
-          text="LinkedIn"
           Link
               to={{ pathname: "https://www.linkedin.com/in/deondfranklin/" }}
         />
@@ -32,7 +30,6 @@ export default function AboutMe() {
           img
           src="https://res.cloudinary.com/dankl8in/image/upload/v1645471097/g_ss4k6f.png"
           a href="mailto:deonthedev@gmail.com"
-          text="Gmail"
         />
       </div>
     </>
