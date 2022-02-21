@@ -10,7 +10,6 @@ export default function AboutMe() {
         <CardItem
           img
           src="https://res.cloudinary.com/dankl8in/image/upload/v1645473334/c54dun8kektznrlav9lf.png"
-          text="Resume"
           Link
               to={{ pathname: "https://resume.io/r/o1LkuT187" }}
         />
