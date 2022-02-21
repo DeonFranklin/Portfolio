@@ -28,9 +28,9 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
+        
         <div className="navbar-container">
-        {/* <video src="https://res.cloudinary.com/dankl8in/video/upload/v1644352250/video-1_xdvmaw.webm" autoPlay loop muted /> */}
-          <Link to="/home" className="navbar-logo" onClick={closeMenu}>
+          <Link to="/" className="navbar-logo" onClick={closeMenu}>
             Deon D. Franklin
           </Link>
           <div className="menu-icon" onClick={handleClick}>
@@ -38,7 +38,7 @@ function Navbar() {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/Portfolio" className="nav-links" onClick={closeMenu}>
+              <Link to="/" className="nav-links" onClick={closeMenu}>
                 Home
               </Link>
             </li>

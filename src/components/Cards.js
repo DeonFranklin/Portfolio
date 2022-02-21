@@ -9,6 +9,13 @@ function Cards() {
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
+            <video
+              src="https://res.cloudinary.com/dankl8in/video/upload/v1644352250/video-1_xdvmaw.webm"
+              autoPlay
+              loop
+              muted
+            />
+
             <CardItem
               img
               src="https://res.cloudinary.com/dankl8in/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_black,b_rgb:262c35/v1645472895/Prof_pic_vvb5v5.png"
@@ -27,7 +34,7 @@ function Cards() {
               img
               src="https://res.cloudinary.com/dankl8in/image/upload/v1644352085/connectionmap_q0ft3i.webp"
               text="Let's Connect and Exchange Ideas"
-              path="/Socials"
+              path="/connect"
             />
           </ul>
         </div>

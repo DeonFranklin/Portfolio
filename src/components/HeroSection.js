@@ -5,14 +5,15 @@ import "./HeroSection.css";
 
 function HeroSection() {
   return (
+    <>
     <div className="hero-container">
-      <video src="https://res.cloudinary.com/dankl8in/video/upload/v1644352250/video-1_xdvmaw.webm" autoPlay loop muted />
       <h1>
         WELCOME <br></br>
-        TO MY<br></br>
+        TO<br></br> 
+        MY<br></br>
         PORTFOLIO!
       </h1>
-      <p>Come see whats in store.</p>
+      <p>dream and design with me</p>
       <div className="hero-btns">
         <Button
           className="btns"
@@ -26,6 +27,7 @@ function HeroSection() {
         </Button>
       </div>
     </div>
+    </>
   );
 }
 

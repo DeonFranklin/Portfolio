@@ -1,26 +1,25 @@
-import React from 'react';
-import './Footer.css';
-import { Button } from './Button';
-import { Link } from 'react-router-dom';
+import React from "react";
+import "./Footer.css";
+import { Button } from "./Button";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className='footer-container'>
-      <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
+    <div className="footer-container">
+      <section className="footer-subscription">
+        <p className="footer-subscription-heading">
           Please don't hesitate to reach out.
         </p>
-        <p className='footer-subscription-text'>
-        </p>
-        <div className='input-areas'>
+        <p className="footer-subscription-text"></p>
+        <div className="input-areas">
           <form>
             <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
+              className="footer-input"
+              name="email"
+              type="email"
+              placeholder="Your Email"
             />
-            <Button buttonStyle='btn--outline'>Reach Out</Button>
+            <Button buttonStyle="btn--outline">Reach Out</Button>
           </form>
         </div>
       </section>
@@ -35,14 +34,12 @@ function Footer() {
           </div>
         </div>
       </div> */}
-      <section className='social-media'>
-        <div className='social-media-wrap'>
-          <div className='footer-logo'>
-            <Link to='/' className='social-logo'>
-            </Link>
+      <section className="social-media">
+        <div className="social-media-wrap">
+          <div className="footer-logo">
+            <Link to="/" className="social-logo"></Link>
           </div>
-          <small className='website-rights'>DeontheDev © 2022</small>
-          
+          <small className="website-rights">DeontheDev © 2022</small>
         </div>
       </section>
     </div>
