@@ -15,7 +15,6 @@ function Cards() {
               loop
               muted
             />
-
             <CardItem
               img
               src="https://res.cloudinary.com/dankl8in/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_black,b_rgb:262c35/v1645472895/Prof_pic_vvb5v5.png"
@@ -42,5 +41,4 @@ function Cards() {
     </div>
   );
 }
-
 export default Cards;
