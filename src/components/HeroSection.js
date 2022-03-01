@@ -12,11 +12,17 @@ function HeroSection() {
         TO<br></br> 
         MY<br></br>
         PORTFOLIO!
+        <div className="video"
+        video
+              src="https://res.cloudinary.com/dankl8in/video/upload/v1644352250/video-1_xdvmaw.webm"
+              autoPlay
+              loop
+              muted
+            />
       </h1>
       <p>dream and design with me</p>
       <div className="hero-btns">
         <Button
-          video src= "https://res.cloudinary.com/dankl8in/video/upload/v1644352250/video-1_xdvmaw.webm"
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
