@@ -65,7 +65,7 @@ h1 {
   max-width: calc((100%) - 60px);
   font-size: 12px;
   font-weight: 700;
-  color: #1e71b5;
+  color: #218fe9;
   background-color: transparent;
   box-sizing: border-box;
 }
@@ -94,7 +94,7 @@ h1 {
 }
 
 .cards__item__text {
-  color: rgb(30, 113, 181);
+  color: #62b8ff;
   font-size: 18px;
   text-align: center;
   line-height: 24px;
