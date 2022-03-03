@@ -1,35 +1,50 @@
 import React from "react";
+import { Linking } from "react-native";
 import "../../components/pages/Connect.css";
-import CardItem from "../CardItem";
+import { MDBIcon, MDBContainer, MDBBtn } from "mdbreact";
 
 export default function AboutMe() {
   return (
     <>
-      <h1 className="connect">Want to connect with me?</h1>
-      <div className="social__wrapper">
-        <CardItem
-          img
-          src="https://res.cloudinary.com/dankl8in/image/upload/v1645473334/c54dun8kektznrlav9lf.png"
-          Link
-              to={{ pathname: "https://resume.io/r/o1LkuT187" }} 
-        />
-        <CardItem
-          img
-          src="https://res.cloudinary.com/dankl8in/image/upload/v1645473980/du5gih3rlkat2wu5g5ch.png"
-          Link
-              to={{ pathname: "https://github.com/DeonFranklin" }}
-        />
-        <CardItem
-          img
-          src="https://res.cloudinary.com/dankl8in/image/upload/v1645471118/linkedin_ox4tok.png"
-          Link
-              to={{ pathname: "https://www.linkedin.com/in/deondfranklin/" }}
-        />
-        <CardItem
-          img
-          src="https://res.cloudinary.com/dankl8in/image/upload/v1645471097/g_ss4k6f.png"
-          a href="mailto:deonthedev@gmail.com"
-        />
+      <h1 className="connect">Connect with Me</h1>
+      <br />
+      <div className="social-container-connect">
+        <MDBContainer>
+          <a
+            href="https://www.linkedin.com/in/deondfranklin/"
+            className="li-float"
+          >
+            <MDBBtn size="xl" tag="a" floating social="li">
+              <MDBIcon fab icon="linkedin-in" />
+            </MDBBtn>
+          </a>
+          <a href="https://github.com/DeonFranklin" className="gh-float">
+            <MDBBtn size="lg" tag="a" floating social="git">
+              <MDBIcon fab icon="github" />
+            </MDBBtn>
+          </a>
+          <a href="deonthedev@gmail.com" className="em-float">
+            <MDBBtn
+              onPress={() =>
+                Linking.openURL(
+                  "mailto:deonthedev@gmail.com?subject=SendMail&body=Description"
+                )
+              }
+              title="deonthedev@gmail.com"
+              size="lg"
+              tag="a"
+              floating
+              social="email"
+            >
+              <MDBIcon icon="envelope" />
+            </MDBBtn>
+          </a>
+          <a href="#!" className="res-float">
+            <MDBBtn size="lg" tag="a" floating social="comm">
+              <MDBIcon icon="comments" />
+            </MDBBtn>
+          </a>
+        </MDBContainer>
       </div>
     </>
   );
